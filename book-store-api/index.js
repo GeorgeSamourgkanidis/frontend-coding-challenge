@@ -2,7 +2,7 @@ var FakeServer = require('fake-json-api-server/src/nodeServer');
 
 new FakeServer({
     storageKey: 'fakeServerStorage',
-    port: 3000,
+    port: 3001,
     resources: {
         stores: {
             data: [{
